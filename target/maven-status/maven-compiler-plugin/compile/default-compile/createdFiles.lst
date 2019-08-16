@@ -1,0 +1,8 @@
+ru\javawebinar\topjava\util\DateTimeUtil.class
+ru\javawebinar\topjava\util\MealsUtil.class
+ru\javawebinar\topjava\model\MealTo.class
+ru\javawebinar\topjava\web\UserServlet.class
+ru\javawebinar\topjava\web\MealServlet.class
+ru\javawebinar\topjava\repository\InMemoryMealRepositoryImpl.class
+ru\javawebinar\topjava\repository\MealRepository.class
+ru\javawebinar\topjava\model\Meal.class
