@@ -7,19 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryBaseRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/SpringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/MealTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/SpringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/SpringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/MealTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/SpringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/SpringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/MealTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/meals.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +42,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryBaseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" />
@@ -107,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/SpringMain.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/meals.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" />
       </list>
     </option>
   </component>
@@ -400,7 +424,7 @@
       <workItem from="1565165900320" duration="4308000" />
       <workItem from="1565960658669" duration="5500000" />
       <workItem from="1565968555973" duration="11092000" />
-      <workItem from="1566029614067" duration="17086000" />
+      <workItem from="1566029614067" duration="18062000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
@@ -420,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37986000" />
+    <option name="totallyTimeSpent" value="38962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +459,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -447,7 +471,7 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +482,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3611111" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" visible="true" weight="0.2911111" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" weight="0.5744445" />
       <window_info anchor="bottom" id="Analysis" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -848,28 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-535">
@@ -896,6 +898,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="35" column="76" lean-forward="true" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
