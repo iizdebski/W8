@@ -35,7 +35,7 @@ public class MealService {
     public List<Meal> getBetweenDates(@Nullable LocalDate startDate, @Nullable LocalDate endDate, int userId) {
         return getBetweenDateTimes(adjustStartDateTime(startDate), adjustEndDateTime(endDate), userId);
     }
-    public List<Meal> getBetweenDateTimes(LocalDateTime startDateTime, LocalDateTime endDateTime, int userId) {
+    private List<Meal> getBetweenDateTimes(LocalDateTime startDateTime, LocalDateTime endDateTime, int userId) {
         return repository.getBetween(startDateTime, endDateTime, userId);
     }
     public List<Meal> getAll(int userId) {
