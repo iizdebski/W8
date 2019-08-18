@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="topjava@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>10.8</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>554</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="sweater">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>557</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="topjava">
+      <ObjectId>16494</ObjectId>
+      <StateNumber>913</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>26321</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <role id="5" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="6" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="8" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="9" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="10" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="11" parent="4" name="information_schema">
+      <ObjectId>12648</ObjectId>
+      <StateNumber>354</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="12" parent="4" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="13" parent="4" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="14" parent="4" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="15" parent="4" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="16" parent="4" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>352</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>26322</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="17" parent="4" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="18" parent="4" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="4" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="4" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="4" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="4" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="23" parent="4" name="plpgsql">
+      <ObjectId>12924</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>506</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="24" parent="16" name="global_seq">
+      <ObjectId>88157</ObjectId>
+      <StateNumber>26307</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="25" parent="16" name="meals">
+      <ObjectId>88185</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>25652</StateNumber>
+    </table>
+    <table id="26" parent="16" name="user_roles">
+      <ObjectId>88350</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>26304</StateNumber>
+    </table>
+    <table id="27" parent="16" name="users">
+      <ObjectId>88159</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>26304</StateNumber>
+    </table>
+    <column id="28" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25652</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="29" parent="25" name="user_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25652</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="30" parent="25" name="date_time">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25652</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="31" parent="25" name="description">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25652</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="32" parent="25" name="calories">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25652</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="33" parent="25" name="meals_pkey">
+      <ObjectId>88192</ObjectId>
+      <StateNumber>25652</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="34" parent="25" name="meals_unique_user_datetime_idx">
+      <ObjectId>88199</ObjectId>
+      <StateNumber>25653</StateNumber>
+      <ColNames>user_id
+date_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="25" name="meals_pkey">
+      <ObjectId>88193</ObjectId>
+      <StateNumber>25652</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>meals_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="36" parent="25" name="meals_user_id_fkey">
+      <ObjectId>88194</ObjectId>
+      <StateNumber>25652</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>88159</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="37" parent="26" name="user_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>26304</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="38" parent="26" name="role">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>26304</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="39" parent="26" name="user_roles_idx">
+      <ObjectId>88356</ObjectId>
+      <StateNumber>26304</StateNumber>
+      <ColNames>user_id
+role</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="26" name="user_roles_idx">
+      <ObjectId>88357</ObjectId>
+      <StateNumber>26304</StateNumber>
+      <ColNames>user_id
+role</ColNames>
+      <UnderlyingIndexName>user_roles_idx</UnderlyingIndexName>
+    </key>
+    <foreign-key id="41" parent="26" name="user_roles_user_id_fkey">
+      <ObjectId>88358</ObjectId>
+      <StateNumber>26304</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>88159</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="42" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="43" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="27" name="email">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="27" name="password">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="27" name="registered">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="47" parent="27" name="enabled">
+      <Position>6</Position>
+      <DataType>boolean|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <DefaultExpression>true</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="48" parent="27" name="calories_per_day">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25649</StateNumber>
+      <DefaultExpression>2000</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="49" parent="27" name="users_pkey">
+      <ObjectId>88169</ObjectId>
+      <StateNumber>25649</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="50" parent="27" name="users_unique_email_idx">
+      <ObjectId>88171</ObjectId>
+      <StateNumber>25650</StateNumber>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="27" name="users_pkey">
+      <ObjectId>88170</ObjectId>
+      <StateNumber>25649</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
