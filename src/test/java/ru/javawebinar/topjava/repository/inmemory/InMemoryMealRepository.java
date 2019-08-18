@@ -20,8 +20,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static ru.javawebinar.topjava.repository.inmemory.InMemoryUserRepository.ADMIN_ID;
-import static ru.javawebinar.topjava.repository.inmemory.InMemoryUserRepository.USER_ID;
+import static ru.javawebinar.topjava.UserTestData.ADMIN_ID;
+import static ru.javawebinar.topjava.UserTestData.USER_ID;
 
 @Repository
 public class InMemoryMealRepository implements MealRepository {
@@ -37,6 +37,7 @@ public class InMemoryMealRepository implements MealRepository {
         save(new Meal(LocalDateTime.of(2015, Month.JUNE, 1, 21, 0), "Админ ужин", 1500), ADMIN_ID);
     }
 
+
     @Override
     public Meal save(Meal meal, int userId) {
         InMemoryBaseRepository<Meal> meals = usersMealsMap.computeIfAbsent(userId, uid -> new InMemoryBaseRepository<>());
@@ -44,12 +45,12 @@ public class InMemoryMealRepository implements MealRepository {
     }
 
     @PostConstruct
-    public void postConstruct(){
+    public void postConstruct() {
         log.info("+++ PostConstruct");
     }
 
     @PreDestroy
-    public void preDestroy(){
+    public void preDestroy() {
         log.info("+++ PreDestroy");
     }
 
