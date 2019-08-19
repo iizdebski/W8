@@ -10,5 +10,14 @@
       <user-name>postgres</user-name>
       <introspection-schemas>@:@|topjava:</introspection-schemas>
     </data-source>
+    <data-source name="topjava" uuid="d3334958-af79-43d0-95d8-b8231d7b4d69">
+      <database-info product="HSQL Database Engine" version="2.4.0" jdbc-version="4.2" driver-name="HSQL Database Engine Driver" driver-version="2.4.0" dbms="HSQLDB" exact-version="2.4.0" exact-driver-version="2.4">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <introspection-schemas>@:@|PUBLIC:PUBLIC</introspection-schemas>
+    </data-source>
   </component>
 </project>

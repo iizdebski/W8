@@ -27,20 +27,20 @@ public class InMemoryAdminRestControllerSpringTest {
     private InMemoryUserRepository repository;
 
     @Before
-    public void setUp() throws Exception{
+    public void setUp() throws Exception {
         repository.init();
     }
 
     @Test
-    public void delete() throws Exception{
+    public void delete() throws Exception {
         controller.delete(UserTestData.USER_ID);
         Collection<User> users = controller.getAll();
-        Assert.assertEquals(users.size(), 1);
-        Assert.assertEquals(users.iterator().next(), ADMIN);
+        Assert.assertEquals(1, users.size());
+        Assert.assertEquals(ADMIN, users.iterator().next());
     }
 
     @Test(expected = NotFoundException.class)
-    public void deleteNotFound() throws Exception{
+    public void deleteNotFound() throws Exception {
         controller.delete(10);
     }
 }
