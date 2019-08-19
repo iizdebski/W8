@@ -1,0 +1,11 @@
+ru\javawebinar\topjava\service\UserServiceTest.class
+ru\javawebinar\topjava\repository\inmemory\InMemoryUserRepository.class
+ru\javawebinar\topjava\service\MealServiceTest.class
+ru\javawebinar\topjava\repository\inmemory\InMemoryMealRepository.class
+ru\javawebinar\topjava\web\user\InMemoryAdminRestControllerTest.class
+ru\javawebinar\topjava\web\user\InMemoryAdminRestControllerSpringTest.class
+ru\javawebinar\topjava\UserTestData.class
+ru\javawebinar\topjava\service\MealServiceTest$1.class
+ru\javawebinar\topjava\SpringMain.class
+ru\javawebinar\topjava\repository\inmemory\InMemoryBaseRepository.class
+ru\javawebinar\topjava\MealTestData.class

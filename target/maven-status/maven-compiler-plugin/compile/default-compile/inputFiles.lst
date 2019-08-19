@@ -1,8 +1,26 @@
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\repository\MealRepository.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\web\MealServlet.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\web\UserServlet.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\util\MealsUtil.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\model\Meal.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\model\MealTo.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\repository\InMemoryMealRepositoryImpl.java
-D:\Programming preparation\Online Internship\TopJava16\16. TopJava Manual Instal\HW1\topjava\src\main\java\ru\javawebinar\topjava\util\DateTimeUtil.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\util\ValidationUtil.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\jdbc\JdbcMealRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\SecurityUtil.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\UserRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\service\MealService.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\MealServlet.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\model\User.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\model\Meal.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\util\MealsUtil.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\user\AbstractUserController.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\util\exception\NotFoundException.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\meal\MealRestController.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\jpa\JpaUserRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\to\MealTo.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\user\ProfileRestController.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\user\AdminRestController.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\model\AbstractBaseEntity.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\MealRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\model\Role.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\service\UserService.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\jdbc\JdbcUserRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\web\UserServlet.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\model\AbstractNamedEntity.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\repository\jpa\JpaMealRepository.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\util\DateTimeUtil.java
+D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava\src\main\java\ru\javawebinar\topjava\util\Util.java

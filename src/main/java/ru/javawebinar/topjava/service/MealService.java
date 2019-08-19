@@ -21,37 +21,39 @@ public class MealService {
     private final MealRepository repository;
 
     @Autowired
-    public MealService(MealRepository repository){
+    public MealService(MealRepository repository) {
         this.repository = repository;
     }
 
-    public Meal get(int id, int userId){
+    public Meal get(int id, int userId) {
         return checkNotFoundWithId(repository.get(id, userId), id);
     }
 
-    public void delete(int id, int userId){
+    public void delete(int id, int userId) {
         checkNotFoundWithId(repository.delete(id, userId), id);
     }
 
     public List<Meal> getBetweenDates(@Nullable LocalDate startDate, @Nullable LocalDate endDate, int userId) {
         return getBetweenDateTimes(adjustStartDateTime(startDate), adjustEndDateTime(endDate), userId);
     }
+
     private List<Meal> getBetweenDateTimes(LocalDateTime startDateTime, LocalDateTime endDateTime, int userId) {
         Assert.notNull(startDateTime, "startDateTime must not be null");
-        Assert.notNull(endDateTime, "endDateTime must not be null");
+        Assert.notNull(endDateTime, "endDateTime  must not be null");
         return repository.getBetween(startDateTime, endDateTime, userId);
     }
+
     public List<Meal> getAll(int userId) {
         return repository.getAll(userId);
     }
 
     public void update(Meal meal, int userId) {
-        Assert.notNull(meal, "must not be null");
+        Assert.notNull(meal, "meal must not be null");
         checkNotFoundWithId(repository.save(meal, userId), meal.getId());
     }
 
     public Meal create(Meal meal, int userId) {
-        Assert.notNull(meal, "must not be null");
+        Assert.notNull(meal, "meal must not be null");
         return repository.save(meal, userId);
     }
 }
