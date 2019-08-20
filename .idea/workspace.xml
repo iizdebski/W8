@@ -7,13 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcMealServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaMealServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/MealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/MealServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/MealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-app.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/UserServiceTest.class" afterDir="false" />
@@ -51,27 +58,7 @@
     </checked>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-db.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-              <folding>
-                <element signature="e#1627#1645#0" expanded="true" />
-                <element signature="e#1677#1712#0" expanded="true" />
-                <element signature="e#2236#2261#0" expanded="true" />
-                <element signature="e#2358#2389#0" expanded="true" />
-                <element signature="e#2825#2841#0" expanded="true" />
-                <element signature="e#4763#4788#0" expanded="true" />
-                <element signature="e#4889#4920#0" expanded="true" />
-                <element signature="e#5362#5378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,13 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4730e2a6-d602-4dfd-88d3-06569a65395c/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/SecurityUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/repository/inmemory/InMemoryBaseRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.java" />
@@ -164,6 +144,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcMealServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaMealServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" />
       </list>
     </option>
   </component>
@@ -225,22 +212,31 @@
               <item name="topjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="topjava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="topjava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="topjava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="topjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="topjava" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,6 +305,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AbstractMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.AbstractMealServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.AbstractUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InMemoryAdminRestControllerSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
@@ -334,36 +360,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.web.user" />
       <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="topjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.MealServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="topjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -444,8 +440,8 @@
     <list>
       <item itemvalue="Application.MealsUtil" />
       <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
-      <item itemvalue="JUnit.UserServiceTest" />
-      <item itemvalue="JUnit.MealServiceTest" />
+      <item itemvalue="JUnit.AbstractUserServiceTest" />
+      <item itemvalue="JUnit.AbstractMealServiceTest" />
       <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
     </list>
@@ -453,8 +449,8 @@
       <list>
         <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
         <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
-        <item itemvalue="JUnit.MealServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.AbstractMealServiceTest" />
+        <item itemvalue="JUnit.AbstractUserServiceTest" />
         <item itemvalue="Application.MealsUtil" />
       </list>
     </recent_temporary>
@@ -490,7 +486,7 @@
       <workItem from="1566281134334" duration="9000" />
       <workItem from="1566281256674" duration="120000" />
       <workItem from="1566281387267" duration="16000" />
-      <workItem from="1566281454372" duration="7326000" />
+      <workItem from="1566281454372" duration="8353000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
@@ -549,7 +545,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101687000" />
+    <option name="totallyTimeSpent" value="102714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +559,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -575,13 +571,13 @@
       <window_info id="Persistence" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44111112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.53555554" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.53555554" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3611111" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -655,60 +651,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="3_8" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/repository/inmemory/InMemoryUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1fd53a24-2dcc-4012-b2c7-339114a03771/database/topjava/schema/public/table/meals">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="17f641e0-318a-43d4-acbf-b9d3ba5b4747">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3334958-af79-43d0-95d8-b8231d7b4d69/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3334958-af79-43d0-95d8-b8231d7b4d69/database/PUBLIC/schema/PUBLIC/table/MEALS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="e003409f-0a7d-4cb8-bfc9-5cd78dfb8562">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3334958-af79-43d0-95d8-b8231d7b4d69/database/PUBLIC/schema/PUBLIC/table/USERS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="e003409f-0a7d-4cb8-bfc9-5cd78dfb8562">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3334958-af79-43d0-95d8-b8231d7b4d69/database/PUBLIC/schema/PUBLIC/table/USER_ROLES">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="e003409f-0a7d-4cb8-bfc9-5cd78dfb8562">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_0_fix.patch" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/repository/inmemory/InMemoryMealRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1037,7 +979,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/MealServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="110" selection-start-line="110" selection-end-line="110" selection-end-column="33" />
@@ -1047,7 +989,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/UserServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="38" />
@@ -1096,17 +1038,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-db.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state relative-caret-position="481">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
           <folding>
-            <element signature="e#1627#1645#0" expanded="true" />
-            <element signature="e#1677#1712#0" expanded="true" />
-            <element signature="e#2236#2261#0" expanded="true" />
-            <element signature="e#2358#2389#0" expanded="true" />
-            <element signature="e#2825#2841#0" expanded="true" />
-            <element signature="e#4763#4788#0" expanded="true" />
-            <element signature="e#4889#4920#0" expanded="true" />
-            <element signature="e#5362#5378#0" expanded="true" />
+            <element signature="e#1120#1138#0" expanded="true" />
+            <element signature="e#1170#1205#0" expanded="true" />
+            <element signature="e#1680#1697#0" expanded="true" />
+            <element signature="e#1723#1745#0" expanded="true" />
+            <element signature="e#1771#1793#0" expanded="true" />
+            <element signature="e#2127#2144#0" expanded="true" />
+            <element signature="e#2170#2192#0" expanded="true" />
+            <element signature="e#2218#2240#0" expanded="true" />
+            <element signature="e#3182#3207#0" expanded="true" />
+            <element signature="e#3335#3366#0" expanded="true" />
+            <element signature="e#3830#3846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcMealServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jdbc/JdbcUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaMealServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1857#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1163,12 +1180,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>topjava</last-edited>
+          <last-edited>Spring|topjava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
