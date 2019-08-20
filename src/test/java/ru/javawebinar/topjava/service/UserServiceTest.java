@@ -1,5 +1,6 @@
 package ru.javawebinar.topjava.service;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import ru.javawebinar.topjava.model.Role;
 import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
 
+import javax.cache.CacheManager;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -31,6 +33,14 @@ public class UserServiceTest {
 
     @Autowired
     private UserService service;
+
+    @Autowired
+    private CacheManager cacheManager;
+
+    @Before
+    public void setUp() throws Exception{
+        cacheManager.getCache("users").clear();
+    }
 
     @Test
     public void create() throws Exception {
