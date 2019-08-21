@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fd53a24-2dcc-4012-b2c7-339114a03771.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1fd53a24-2dcc-4012-b2c7-339114a03771.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3334958-af79-43d0-95d8-b8231d7b4d69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d3334958-af79-43d0-95d8-b8231d7b4d69.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcMealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/MealServiceTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/MealServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +46,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>insta</find>
-      <find>pluginManagement</find>
-      <find>scope</find>
-      <find>target</find>
-      <find>configuration</find>
-      <find>4.12</find>
-      <find>2.22.1</find>
-      <find>jdbc</find>
-      <find>spring-orm</find>
-      <find>org.glass</find>
-      <find>java.version</find>
-      <find>hsql</find>
-      <find>jdbc.initLocation=initDB.sql</find>
-      <find>inmemory.xml</find>
-      <find>postgres</find>
-      <find>spring.version</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -356,7 +319,7 @@
       <workItem from="1566281454372" duration="8663000" />
       <workItem from="1566326027533" duration="1360000" />
       <workItem from="1566371690672" duration="826000" />
-      <workItem from="1566372628106" duration="1300000" />
+      <workItem from="1566372628106" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
