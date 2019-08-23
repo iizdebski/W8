@@ -20,17 +20,17 @@ public class UserService {
     private final UserRepository repository;
 
     @Autowired
-    public UserService(UserRepository repository){
+    public UserService(UserRepository repository) {
         this.repository = repository;
     }
 
     @CacheEvict(value = "users", allEntries = true)
-    public User create(User user){
+    public User create(User user) {
         Assert.notNull(user, "user must not be null");
         return repository.save(user);
     }
 
-    @CacheEvict(value="users", allEntries = true)
+    @CacheEvict(value = "users", allEntries = true)
     public void delete(int id) {
         checkNotFoundWithId(repository.delete(id), id);
     }
@@ -45,7 +45,7 @@ public class UserService {
     }
 
     @Cacheable("users")
-    public List<User> getAll(){
+    public List<User> getAll() {
         return repository.getAll();
     }
 

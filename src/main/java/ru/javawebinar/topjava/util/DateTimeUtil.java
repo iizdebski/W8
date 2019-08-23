@@ -7,7 +7,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class DateTimeUtil {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
@@ -16,7 +15,7 @@ public class DateTimeUtil {
     private static final LocalDate MIN_DATE = LocalDate.of(1, 1, 1);
     private static final LocalDate MAX_DATE = LocalDate.of(3000, 1, 1);
 
-    private DateTimeUtil(){
+    private DateTimeUtil() {
     }
 
     public static LocalDateTime adjustStartDateTime(LocalDate localDate) {
@@ -35,10 +34,11 @@ public class DateTimeUtil {
         return ldt == null ? "" : ldt.format(DATE_TIME_FORMATTER);
     }
 
-    public static LocalDate parseLocalDate(@Nullable String str){
+    public static LocalDate parseLocalDate(@Nullable String str) {
         return StringUtils.isEmpty(str) ? null : LocalDate.parse(str);
     }
-    public static LocalTime parseLocalTime(@Nullable String str){
+
+    public static LocalTime parseLocalTime(@Nullable String str) {
         return StringUtils.isEmpty(str) ? null : LocalTime.parse(str);
     }
 }

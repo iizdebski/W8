@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/Profiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/Profiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractBaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractNamedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractNamedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/MealRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/UserRepository.java" afterDir="false" />
@@ -17,13 +22,126 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcMealRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jdbc/JdbcUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jpa/JpaMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jpa/JpaMealRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/MealService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/DateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/ValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/ValidationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/AbstractUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/AbstractUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/AdminRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/AdminRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cache/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cache/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/hsqldb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/hsqldb.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/initDB_hsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/initDB_hsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/populateDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/populateDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/postgres.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/postgres.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/functions.tld" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/functions.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mealForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mealForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cache/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cache/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/hsqldb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/hsqldb.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/initDB_hsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/initDB_hsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/populateDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/populateDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/postgres.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/postgres.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/MealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/MealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/CrudUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/ValidationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/ValidationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/exception/NotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/SecurityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.MealServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.UserServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.MealServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.UserServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/SpringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/SpringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/UserTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/UserTestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractUserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/cache/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/cache/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/hsqldb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/hsqldb.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/initDB_hsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/initDB_hsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/populateDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/populateDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/postgres.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/db/postgres.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/MealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/MealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/CrudUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaMealRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/datajpa/DataJpaUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/repository/jpa/JpaUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/MealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/MealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/ValidationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/ValidationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/exception/NotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/SecurityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/lib/hsqldb-2.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/tld/functions.tld" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/tld/functions.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/mealForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/mealForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/users.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +219,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../patches 6 04 NOT managed yet/topjava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -121,6 +239,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW5\topjava\src" />
       <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava" />
     </key>
   </component>
@@ -136,20 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
-    <configuration name="MealsUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.util.MealsUtil" />
-      <module name="topjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.20">
     <configuration name="AbstractMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
@@ -175,6 +281,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
       <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.AbstractUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataJpaMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.datajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.datajpa" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,7 +331,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="topjava:war exploded">
@@ -283,20 +404,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MealsUtil" />
       <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
       <item itemvalue="JUnit.AbstractUserServiceTest" />
       <item itemvalue="JUnit.AbstractMealServiceTest" />
       <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
+      <item itemvalue="JUnit.DataJpaMealServiceTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataJpaMealServiceTest" />
         <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
         <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
         <item itemvalue="JUnit.AbstractMealServiceTest" />
         <item itemvalue="JUnit.AbstractUserServiceTest" />
-        <item itemvalue="Application.MealsUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +455,10 @@
       <workItem from="1566281454372" duration="8663000" />
       <workItem from="1566326027533" duration="1360000" />
       <workItem from="1566371690672" duration="826000" />
-      <workItem from="1566372628106" duration="3377000" />
+      <workItem from="1566372628106" duration="3945000" />
+      <workItem from="1566378344807" duration="288000" />
+      <workItem from="1566403088798" duration="273000" />
+      <workItem from="1566409315207" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
