@@ -9,22 +9,13 @@
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/ValidationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/ValidationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractUserServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/ValidationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/ValidationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" afterDir="false" />
-    </list>
-    <list id="43f78aa9-fe95-422b-96c1-4466bf81c08e" name="6 08 add test validation" comment="" />
-    <list id="36f58bf5-482a-41af-85d9-f9412e24c73c" name="6 09 hibernate cache" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/repository/JpaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,12 +75,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1PhUrxlPjbr6L8d5rDVHmBw0yoS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -311,8 +296,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
-      <changelist id="43f78aa9-fe95-422b-96c1-4466bf81c08e" name="6 08 add test validation" comment="" />
-      <changelist id="36f58bf5-482a-41af-85d9-f9412e24c73c" name="6 09 hibernate cache" comment="" />
+      <changelist id="" name="6 08 add test validation" comment="" />
+      <changelist id="" name="6 09 hibernate cache" comment="" />
+      <changelist id="" name="6 10 cascade ddl" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -345,7 +331,7 @@
       <workItem from="1566378344807" duration="288000" />
       <workItem from="1566403088798" duration="273000" />
       <workItem from="1566409315207" duration="658000" />
-      <workItem from="1566552440454" duration="1806000" />
+      <workItem from="1566552440454" duration="4112000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
@@ -375,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566291557165</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="6 09 hibernate cache">
+      <created>1566555138441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566555138441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6 10 cascade ddl">
+      <created>1566555155156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566555155156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -455,7 +455,9 @@
     <MESSAGE value="2_4" />
     <MESSAGE value="3_8" />
     <MESSAGE value="6_03_extract_rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="6_03_extract_rules" />
+    <MESSAGE value="6 09 hibernate cache" />
+    <MESSAGE value="6 10 cascade ddl" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 10 cascade ddl" />
   </component>
   <component name="masterDetails">
     <states>
