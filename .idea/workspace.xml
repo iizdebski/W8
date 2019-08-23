@@ -8,22 +8,43 @@
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages/app.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages/app_ru.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/topjava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/RootController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.datajpa.DataJpaUserServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.datajpa.DataJpaUserServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jdbc.JdbcMealServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jdbc.JdbcMealServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jdbc.JdbcUserServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jdbc.JdbcUserServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jpa.JpaMealServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jpa.JpaMealServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jpa.JpaUserServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.service.jpa.JpaUserServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.datajpa.DataJpaUserServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.datajpa.DataJpaUserServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jdbc.JdbcMealServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jdbc.JdbcMealServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jdbc.JdbcUserServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jdbc.JdbcUserServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jpa.JpaMealServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jpa.JpaMealServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jpa.JpaUserServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.service.jpa.JpaUserServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/topjava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/META-INF/topjava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/RootController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/mealForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/mealForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/meals.jsp" afterDir="false" />
     </list>
     <list id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
-    <list id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/spring/inmemory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/spring/inmemory.xml" afterDir="false" />
-    </list>
+    <list id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="" />
+    <list id="aef36b24-7db3-4fb3-8627-cf722ef6d739" name="7 02 HW6 meals" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +62,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="topjava@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="topjava@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="topjava@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="topjava: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -86,6 +123,7 @@
   <component name="ProjectId" id="1PhUrxlPjbr6L8d5rDVHmBw0yoS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql&#10;hsqldb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,7 +132,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../TopJava16/HW6/topjava" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -208,6 +246,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dspring.profiles.active=&quot;datajpa,postgres&quot;" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="topjava:war exploded">
@@ -305,6 +344,7 @@
       <changelist id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
       <changelist id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
       <changelist id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="" />
+      <changelist id="aef36b24-7db3-4fb3-8627-cf722ef6d739" name="7 02 HW6 meals" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -338,7 +378,8 @@
       <workItem from="1566403088798" duration="273000" />
       <workItem from="1566409315207" duration="658000" />
       <workItem from="1566552440454" duration="6479000" />
-      <workItem from="1566571046881" duration="521000" />
+      <workItem from="1566571046881" duration="884000" />
+      <workItem from="1566572082181" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
@@ -441,79 +482,5 @@
     <MESSAGE value="6 10 cascade ddl" />
     <MESSAGE value="6 14 spring webmvc" />
     <option name="LAST_COMMIT_MESSAGE" value="6 14 spring webmvc" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (topjava)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|topjava</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

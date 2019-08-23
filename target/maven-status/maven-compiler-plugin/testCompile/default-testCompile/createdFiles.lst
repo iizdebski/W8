@@ -10,6 +10,7 @@ ru\javawebinar\topjava\web\user\InMemoryAdminRestControllerSpringTest.class
 ru\javawebinar\topjava\UserTestData.class
 ru\javawebinar\topjava\service\AbstractUserServiceTest.class
 ru\javawebinar\topjava\service\AbstractServiceTest.class
+ru\javawebinar\topjava\service\AbstractJpaUserServiceTest.class
 ru\javawebinar\topjava\SpringMain.class
 ru\javawebinar\topjava\TimingRules.class
 ru\javawebinar\topjava\repository\inmemory\InMemoryBaseRepository.class
