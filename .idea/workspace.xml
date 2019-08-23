@@ -13,6 +13,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <list id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
+    <list id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/SpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/jpa/JpaUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spring/inmemory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/spring/inmemory.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,6 +304,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
       <changelist id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
+      <changelist id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -326,7 +338,7 @@
       <workItem from="1566403088798" duration="273000" />
       <workItem from="1566409315207" duration="658000" />
       <workItem from="1566552440454" duration="6479000" />
-      <workItem from="1566571046881" duration="244000" />
+      <workItem from="1566571046881" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
