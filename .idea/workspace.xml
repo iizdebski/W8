@@ -142,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.20">
+  <component name="RunManager" selected="JUnit.InMemoryAdminRestControllerTest">
     <configuration name="AbstractMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
@@ -300,8 +300,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataJpaMealServiceTest" />
         <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
+        <item itemvalue="JUnit.DataJpaMealServiceTest" />
         <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
         <item itemvalue="JUnit.AbstractMealServiceTest" />
         <item itemvalue="JUnit.AbstractUserServiceTest" />
