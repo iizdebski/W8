@@ -9,13 +9,31 @@
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/MealServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/Meal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/users.jsp" afterDir="false" />
+    </list>
+    <list id="59ef5dfc-6dc0-4e8a-b153-0e6469e343c6" name="6 12 jsp jstl i18n" comment="" />
+    <list id="4b45709a-bb89-45aa-8737-049e58ad39b2" name="6 13 tomcat pool jndi cargo" comment="" />
+    <list id="3656c768-c6f7-422f-9c4c-40d4c2f4af1f" name="6 14 spring webmvc" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/RootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/bodyHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/bodyHeader.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mealForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mealForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,6 +317,9 @@
       <changelist id="" name="6 08 add test validation" comment="" />
       <changelist id="" name="6 09 hibernate cache" comment="" />
       <changelist id="" name="6 10 cascade ddl" comment="" />
+      <changelist id="59ef5dfc-6dc0-4e8a-b153-0e6469e343c6" name="6 12 jsp jstl i18n" comment="" />
+      <changelist id="4b45709a-bb89-45aa-8737-049e58ad39b2" name="6 13 tomcat pool jndi cargo" comment="" />
+      <changelist id="3656c768-c6f7-422f-9c4c-40d4c2f4af1f" name="6 14 spring webmvc" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -331,7 +352,7 @@
       <workItem from="1566378344807" duration="288000" />
       <workItem from="1566403088798" duration="273000" />
       <workItem from="1566409315207" duration="658000" />
-      <workItem from="1566552440454" duration="4112000" />
+      <workItem from="1566552440454" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
