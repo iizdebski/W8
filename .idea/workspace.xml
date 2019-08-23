@@ -6,14 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
+    <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
+    </list>
     <list id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
     <list id="e7367615-fefe-4ac8-aa29-2462d951327a" name="7 01 HW6 fix tests" comment="" />
     <list id="aef36b24-7db3-4fb3-8627-cf722ef6d739" name="7 02 HW6 meals" comment="" />
-    <list id="f7e58e18-f438-4099-8ed3-aa8c1665ebd9" name="7 03 HW6 fix relative url utf8" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/JspMealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/JspMealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
-    </list>
+    <list id="f7e58e18-f438-4099-8ed3-aa8c1665ebd9" name="7 03 HW6 fix relative url utf8" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +350,7 @@
       <workItem from="1566409315207" duration="658000" />
       <workItem from="1566552440454" duration="6479000" />
       <workItem from="1566571046881" duration="884000" />
-      <workItem from="1566572082181" duration="1766000" />
+      <workItem from="1566572082181" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
