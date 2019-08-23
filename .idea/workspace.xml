@@ -8,33 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/MealServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-db.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/meals.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/app_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
     </list>
-    <list id="59ef5dfc-6dc0-4e8a-b153-0e6469e343c6" name="6 12 jsp jstl i18n" comment="" />
-    <list id="4b45709a-bb89-45aa-8737-049e58ad39b2" name="6 13 tomcat pool jndi cargo" comment="" />
-    <list id="3656c768-c6f7-422f-9c4c-40d4c2f4af1f" name="6 14 spring webmvc" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/RootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/bodyHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/bodyHeader.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mealForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mealForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/meals.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterDir="false" />
-    </list>
+    <list id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InMemoryAdminRestControllerTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.20">
     <configuration name="AbstractMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
@@ -314,12 +292,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
-      <changelist id="" name="6 08 add test validation" comment="" />
-      <changelist id="" name="6 09 hibernate cache" comment="" />
-      <changelist id="" name="6 10 cascade ddl" comment="" />
-      <changelist id="59ef5dfc-6dc0-4e8a-b153-0e6469e343c6" name="6 12 jsp jstl i18n" comment="" />
-      <changelist id="4b45709a-bb89-45aa-8737-049e58ad39b2" name="6 13 tomcat pool jndi cargo" comment="" />
-      <changelist id="3656c768-c6f7-422f-9c4c-40d4c2f4af1f" name="6 14 spring webmvc" comment="" />
+      <changelist id="c3b9ff2d-ed6b-44b2-90e8-67ceece2b5cc" name="6 15 spring i18n" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -352,7 +325,8 @@
       <workItem from="1566378344807" duration="288000" />
       <workItem from="1566403088798" duration="273000" />
       <workItem from="1566409315207" duration="658000" />
-      <workItem from="1566552440454" duration="4956000" />
+      <workItem from="1566552440454" duration="6479000" />
+      <workItem from="1566571046881" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
@@ -396,40 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1566555155156</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6 14 spring webmvc">
+      <created>1566561357269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566561357269</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="UserServiceTest - 2019.08.19 at 20h 41m 57s.xml">
-      <configuration name="UserServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 20h 42m 06s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerTest - 2019.08.19 at 20h 42m 15s.xml">
-      <configuration name="InMemoryAdminRestControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 20h 42m 30s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealServiceTest - 2019.08.19 at 20h 45m 54s.xml">
-      <configuration name="MealServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 20h 46m 05s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 20h 50m 22s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 20h 50m 51s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerSpringTest - 2019.08.19 at 21h 02m 54s.xml">
-      <configuration name="InMemoryAdminRestControllerSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InMemoryAdminRestControllerTest - 2019.08.19 at 21h 03m 01s.xml">
-      <configuration name="InMemoryAdminRestControllerTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +427,8 @@
     <MESSAGE value="6_03_extract_rules" />
     <MESSAGE value="6 09 hibernate cache" />
     <MESSAGE value="6 10 cascade ddl" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 10 cascade ddl" />
+    <MESSAGE value="6 14 spring webmvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 14 spring webmvc" />
   </component>
   <component name="masterDetails">
     <states>
