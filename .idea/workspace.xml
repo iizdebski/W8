@@ -7,21 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/json/JsonUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/AbstractBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JacksonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/AdminRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/SpringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/SpringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/AdminRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -360,7 +360,7 @@
       <workItem from="1566814288926" duration="490000" />
       <workItem from="1566815340315" duration="174000" />
       <workItem from="1566815605425" duration="502000" />
-      <workItem from="1566816342917" duration="10161000" />
+      <workItem from="1566816342917" duration="13122000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
