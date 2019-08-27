@@ -7,31 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/meal/MealRestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/converter/DateTimeFormatters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/to/MealTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/util/MealsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/MealRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/MealTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/MealTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/meal/MealRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/meal/MealRestControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/to/MealTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/to/MealTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/RootController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/AbstractMealServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/json/JsonUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/json/JsonUtilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerSpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerSpringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/ProfileRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/ProfileRestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/MealTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/MealTestData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/to/MealTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/to/MealTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/RootController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/JspMealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/meals.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/util/MealsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -364,7 +352,7 @@
       <workItem from="1566815340315" duration="174000" />
       <workItem from="1566815605425" duration="502000" />
       <workItem from="1566816342917" duration="15808000" />
-      <workItem from="1566885058766" duration="3315000" />
+      <workItem from="1566885058766" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
