@@ -12,12 +12,21 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/ProfileRestControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/RootController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/JspMealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/meal/JspMealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/meals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/meals.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractJpaUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/AbstractMealServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaMealServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/service/datajpa/DataJpaUserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/RootControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/RootControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/json/JsonUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/json/JsonUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/InMemoryAdminRestControllerSpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" afterDir="false" />
@@ -361,7 +370,7 @@
       <workItem from="1566815340315" duration="174000" />
       <workItem from="1566815605425" duration="502000" />
       <workItem from="1566816342917" duration="15808000" />
-      <workItem from="1566885058766" duration="1184000" />
+      <workItem from="1566885058766" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
