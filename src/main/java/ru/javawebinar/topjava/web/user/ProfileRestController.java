@@ -1,6 +1,5 @@
 package ru.javawebinar.topjava.web.user;
 
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -28,5 +27,10 @@ public class ProfileRestController extends AbstractUserController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void update(@RequestBody User user) {
         super.update(user, authUserId());
+    }
+
+    @GetMapping(value = "/text")
+    public String testUTF() {
+        return "Русский текст";
     }
 }

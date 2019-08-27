@@ -7,20 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/json/JsonUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Topjava-soapui-project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/ProfileRestControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JacksonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/json/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javawebinar/topjava/web/user/ProfileRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/UserTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/RootControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/RootControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web/user/AdminRestControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/UserTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/UserTestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/RootControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/user/AdminRestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/AbstractBaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/json/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/json/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/user/ProfileRestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,37 +148,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.20">
-    <configuration name="AbstractMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="topjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.AbstractMealServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AbstractUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="topjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.AbstractUserServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataJpaMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataJpaUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
         <pattern>
@@ -180,37 +157,67 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.datajpa" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.datajpa.DataJpaMealServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.datajpa.DataJpaUserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryAdminRestControllerSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdbcMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.web.user.*" />
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.web.user" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerSpringTest" />
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.jdbc.JdbcMealServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryAdminRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdbcUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="topjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.javawebinar.topjava.web.user.*" />
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.web.user" />
-      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.web.user.InMemoryAdminRestControllerTest" />
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.jdbc.JdbcUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.jpa" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.jpa.JpaMealServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.javawebinar.topjava.service.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.javawebinar.topjava.service.jpa" />
+      <option name="MAIN_CLASS_NAME" value="ru.javawebinar.topjava.service.jpa.JpaUserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,20 +297,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
-      <item itemvalue="JUnit.AbstractUserServiceTest" />
-      <item itemvalue="JUnit.AbstractMealServiceTest" />
-      <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
-      <item itemvalue="JUnit.DataJpaMealServiceTest" />
+      <item itemvalue="JUnit.DataJpaUserServiceTest" />
+      <item itemvalue="JUnit.JdbcMealServiceTest" />
+      <item itemvalue="JUnit.JdbcUserServiceTest" />
+      <item itemvalue="JUnit.JpaMealServiceTest" />
+      <item itemvalue="JUnit.JpaUserServiceTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InMemoryAdminRestControllerTest" />
-        <item itemvalue="JUnit.DataJpaMealServiceTest" />
-        <item itemvalue="JUnit.InMemoryAdminRestControllerSpringTest" />
-        <item itemvalue="JUnit.AbstractMealServiceTest" />
-        <item itemvalue="JUnit.AbstractUserServiceTest" />
+        <item itemvalue="JUnit.JpaUserServiceTest" />
+        <item itemvalue="JUnit.JpaMealServiceTest" />
+        <item itemvalue="JUnit.JdbcUserServiceTest" />
+        <item itemvalue="JUnit.JdbcMealServiceTest" />
+        <item itemvalue="JUnit.DataJpaUserServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,13 +320,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="" />
-      <changelist id="" name="6 15 spring i18n" comment="" />
-      <changelist id="" name="7 01 HW6 fix tests" comment="" />
-      <changelist id="" name="7 02 HW6 meals" comment="" />
-      <changelist id="" name="7 03 HW6 fix relative url utf8" comment="" />
-      <changelist id="" name="7 04 HW6 optional add role" comment="" />
-      <changelist id="" name="7 05 fix hint graph" comment="" />
-      <changelist id="" name="7 06 HW6 optional jdbc" comment="" />
       <created>1565165896915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -360,7 +360,8 @@
       <workItem from="1566814288926" duration="490000" />
       <workItem from="1566815340315" duration="174000" />
       <workItem from="1566815605425" duration="502000" />
-      <workItem from="1566816342917" duration="13122000" />
+      <workItem from="1566816342917" duration="15808000" />
+      <workItem from="1566885058766" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
