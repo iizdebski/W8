@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/curl.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/curl.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/resources/js/topjava.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/resources/js/topjava.common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +343,7 @@
       <workItem from="1566816342917" duration="15808000" />
       <workItem from="1566885058766" duration="6380000" />
       <workItem from="1567097821781" duration="215000" />
-      <workItem from="1567098657842" duration="3363000" />
+      <workItem from="1567098657842" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
