@@ -2742,3 +2742,26 @@ Stacktrace:
 2019-08-29 20:27:14,463 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:546 - Completed initialization in 1261 ms
 2019-08-29 20:27:25,517 INFO  ru.javawebinar.topjava.web.meal.JspMealController.get:27 - get meal 100007 for user 100000
 2019-08-29 20:27:29,337 INFO  ru.javawebinar.topjava.web.meal.JspMealController.update:53 - update Meal{id=100007, dateTime=2015-05-31T20:00, description='Ужин', calories=517} for user 100000
+2019-08-29 21:11:00,081 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext:270 - Root WebApplicationContext: initialization started
+2019-08-29 21:11:00,777 INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 21:11:01,170 INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 - Finished Spring Data repository scanning in 372ms. Found 2 repository interfaces.
+2019-08-29 21:11:02,702 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'users' created in EhcacheManager.
+2019-08-29 21:11:02,745 INFO  org.ehcache.jsr107.Eh107CacheManager.registerObject:378 - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./Programming%20preparation/Online%20Internship/TopJava17/Manual%20Install/HW8/topjava/target/topjava/WEB-INF/classes/cache/ehcache.xml,Cache=users
+2019-08-29 21:11:02,814 INFO  org.ehcache.jsr107.Eh107CacheManager.registerObject:378 - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./Programming%20preparation/Online%20Internship/TopJava17/Manual%20Install/HW8/topjava/target/topjava/WEB-INF/classes/cache/ehcache.xml,Cache=users
+2019-08-29 21:11:02,994 INFO  org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-08-29 21:11:03,128 INFO  org.hibernate.Version.logVersion:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-08-29 21:11:03,404 INFO  org.hibernate.annotations.common.Version.<clinit>:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-29 21:11:04,431 INFO  org.hibernate.dialect.Dialect.<init>:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2019-08-29 21:11:05,177 INFO  org.hibernate.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 6.0.17.Final
+2019-08-29 21:11:05,592 WARN  org.hibernate.orm.cache.createCache:108 - HHH90001006: Missing cache[ru.javawebinar.topjava.model.User.roles] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2019-08-29 21:11:05,602 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'ru.javawebinar.topjava.model.User.roles' created in EhcacheManager.
+2019-08-29 21:11:05,614 WARN  org.hibernate.orm.cache.createCache:108 - HHH90001006: Missing cache[ru.javawebinar.topjava.model.User] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2019-08-29 21:11:05,619 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'ru.javawebinar.topjava.model.User' created in EhcacheManager.
+2019-08-29 21:11:06,266 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-29 21:11:06,437 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 21:11:08,129 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext:306 - Root WebApplicationContext initialized in 8042 ms
+2019-08-29 21:11:08,173 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:524 - Initializing Servlet 'mvc-dispatcher'
+2019-08-29 21:11:09,226 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:302 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-08-29 21:11:09,318 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:546 - Completed initialization in 1144 ms
+2019-08-29 21:11:58,775 INFO  ru.javawebinar.topjava.web.meal.JspMealController.get:27 - get meal 100007 for user 100000
+2019-08-29 21:12:03,039 INFO  ru.javawebinar.topjava.web.meal.JspMealController.update:53 - update Meal{id=100007, dateTime=2015-05-31T20:00, description='Ужин', calories=517} for user 100000
