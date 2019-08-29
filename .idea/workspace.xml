@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/curl.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Topjava-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/Topjava-soapui-project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/topjava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/meal/MealRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/javawebinar/topjava/web/meal/MealRestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/ru/javawebinar/topjava/web/meal/MealRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/topjava/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +342,7 @@
       <workItem from="1566816342917" duration="15808000" />
       <workItem from="1566885058766" duration="6380000" />
       <workItem from="1567097821781" duration="215000" />
-      <workItem from="1567098657842" duration="250000" />
+      <workItem from="1567098657842" duration="514000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
