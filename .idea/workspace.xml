@@ -7,7 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9195096-91cc-4e98-807a-6d2edaae264d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/log/topjava.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/topjava.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-meal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/messages/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/messages/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/bodyHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/bodyHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fragments/headTag.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +95,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../patches/topjava" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/ru/javawebinar/topjava/web" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -98,20 +107,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.javawebinar.topjava.service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW6\patches\topjava\config\messages" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.javawebinar.topjava.repository" />
       <recent name="ru.javawebinar.topjava" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW6\patches\topjava" />
-      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW5\topjava\src" />
-      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW6\patches\topjava\config\messages" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW8\topjava\src\main\webapp\resources\images" />
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW6\patches\topjava" />
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW5\topjava\src" />
+      <recent name="D:\Programming preparation\Online Internship\TopJava17\Manual Install\HW4\topjava" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +352,7 @@
       <workItem from="1566816342917" duration="15808000" />
       <workItem from="1566885058766" duration="6380000" />
       <workItem from="1567097821781" duration="215000" />
-      <workItem from="1567098657842" duration="514000" />
+      <workItem from="1567098657842" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="1_3_HW0">
       <created>1565967482283</created>
