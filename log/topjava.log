@@ -2921,3 +2921,109 @@ Stacktrace:
 2019-08-29 21:44:41,124 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/css/style.css has an empty filter list
 2019-08-29 21:44:41,240 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/images/icon-meal.png'; against '/resources/**'
 2019-08-29 21:44:41,240 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/images/icon-meal.png has an empty filter list
+2019-08-29 21:52:56,585 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext:270 - Root WebApplicationContext: initialization started
+2019-08-29 21:52:57,004 INFO  o.s.security.core.SpringSecurityCoreVersion.performVersionChecks:81 - You are running with Spring Security Core 5.1.5.RELEASE
+2019-08-29 21:52:57,010 INFO  o.s.security.config.SecurityNamespaceHandler.<init>:78 - Spring Security 'config' module version is 5.1.5.RELEASE
+2019-08-29 21:52:57,070 INFO  o.s.s.c.h.FilterInvocationSecurityMetadataSourceParser.parseInterceptUrlsForFilterInvocationRequestMap:194 - Creating access control expression attribute 'hasRole('ROLE_ADMIN')' for /rest/admin/**
+2019-08-29 21:52:57,072 INFO  o.s.s.c.h.FilterInvocationSecurityMetadataSourceParser.parseInterceptUrlsForFilterInvocationRequestMap:194 - Creating access control expression attribute 'isAuthenticated()' for /**
+2019-08-29 21:52:57,104 INFO  o.s.s.config.http.HttpSecurityBeanDefinitionParser.checkFilterChainOrder:307 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.security.config.http.HttpConfigurationBuilder$SecurityContextHolderAwareRequestFilterBeanFactory#0; factoryMethodName=getBean; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2300, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2500, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2600]
+2019-08-29 21:52:57,402 INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-29 21:52:57,579 INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 - Finished Spring Data repository scanning in 151ms. Found 2 repository interfaces.
+2019-08-29 21:52:58,995 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'users' created in EhcacheManager.
+2019-08-29 21:52:59,039 INFO  org.ehcache.jsr107.Eh107CacheManager.registerObject:378 - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./Programming%20preparation/Online%20Internship/TopJava17/Manual%20Install/HW8/topjava/target/topjava/WEB-INF/classes/cache/ehcache.xml,Cache=users
+2019-08-29 21:52:59,100 INFO  org.ehcache.jsr107.Eh107CacheManager.registerObject:378 - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./D./Programming%20preparation/Online%20Internship/TopJava17/Manual%20Install/HW8/topjava/target/topjava/WEB-INF/classes/cache/ehcache.xml,Cache=users
+2019-08-29 21:52:59,280 INFO  org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-08-29 21:52:59,407 INFO  org.hibernate.Version.logVersion:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-08-29 21:52:59,660 INFO  org.hibernate.annotations.common.Version.<clinit>:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-29 21:53:00,649 INFO  org.hibernate.dialect.Dialect.<init>:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2019-08-29 21:53:01,238 INFO  org.hibernate.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 6.0.17.Final
+2019-08-29 21:53:01,684 WARN  org.hibernate.orm.cache.createCache:108 - HHH90001006: Missing cache[ru.javawebinar.topjava.model.User.roles] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2019-08-29 21:53:01,693 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'ru.javawebinar.topjava.model.User.roles' created in EhcacheManager.
+2019-08-29 21:53:01,700 WARN  org.hibernate.orm.cache.createCache:108 - HHH90001006: Missing cache[ru.javawebinar.topjava.model.User] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2019-08-29 21:53:01,706 INFO  org.ehcache.core.EhcacheManager.createCache:307 - Cache 'ru.javawebinar.topjava.model.User' created in EhcacheManager.
+2019-08-29 21:53:02,421 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-29 21:53:02,599 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-29 21:53:02,681 INFO  o.s.security.web.DefaultSecurityFilterChain.<init>:43 - Creating filter chain: Ant [pattern='/resources/**'], []
+2019-08-29 21:53:02,685 INFO  o.s.security.web.DefaultSecurityFilterChain.<init>:43 - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-08-29 21:53:02,932 DEBUG o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource.processMap:74 - Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/rest/admin/**']
+2019-08-29 21:53:02,936 DEBUG o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource.processMap:74 - Adding web access control expression 'isAuthenticated()', for any request
+2019-08-29 21:53:02,939 DEBUG o.s.s.w.access.intercept.FilterSecurityInterceptor.afterPropertiesSet:180 - Validated configuration attributes
+2019-08-29 21:53:02,942 INFO  o.s.security.web.DefaultSecurityFilterChain.<init>:43 - Creating filter chain: Ant [pattern='/rest/**'], [org.springframework.security.web.context.SecurityContextPersistenceFilter@52029bf4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3142032e, org.springframework.security.web.header.HeaderWriterFilter@3401fd4f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b8120, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2befc86b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fee1914, org.springframework.security.web.access.ExceptionTranslationFilter@65e9653a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f14758a]
+2019-08-29 21:53:04,226 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext:306 - Root WebApplicationContext initialized in 7636 ms
+2019-08-29 21:53:04,289 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:524 - Initializing Servlet 'mvc-dispatcher'
+2019-08-29 21:53:05,362 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:302 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-08-29 21:53:05,433 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:546 - Completed initialization in 1143 ms
+2019-08-29 21:53:05,718 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/resources/**'
+2019-08-29 21:53:05,719 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/webjars/**'
+2019-08-29 21:53:05,719 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/rest/**'
+2019-08-29 21:53:05,720 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - / has no matching filters
+2019-08-29 21:53:07,923 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/resources/**'
+2019-08-29 21:53:07,923 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/webjars/**'
+2019-08-29 21:53:07,924 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/rest/**'
+2019-08-29 21:53:07,924 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - / has no matching filters
+2019-08-29 21:53:09,195 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/css/style.css'; against '/resources/**'
+2019-08-29 21:53:09,195 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/css/style.css has an empty filter list
+2019-08-29 21:53:09,319 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/images/icon-meal.png'; against '/resources/**'
+2019-08-29 21:53:09,320 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/images/icon-meal.png has an empty filter list
+2019-08-29 21:53:12,114 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/resources/**'
+2019-08-29 21:53:12,116 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/webjars/**'
+2019-08-29 21:53:12,116 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/'; against '/rest/**'
+2019-08-29 21:53:12,117 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - / has no matching filters
+2019-08-29 21:53:12,411 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/css/style.css'; against '/resources/**'
+2019-08-29 21:53:12,411 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/css/style.css has an empty filter list
+2019-08-29 21:53:12,430 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/bootstrap/4.3.1/css/bootstrap.min.css'; against '/resources/**'
+2019-08-29 21:53:12,430 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/bootstrap/4.3.1/css/bootstrap.min.css'; against '/webjars/**'
+2019-08-29 21:53:12,430 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/bootstrap/4.3.1/css/bootstrap.min.css has an empty filter list
+2019-08-29 21:53:12,433 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/demo/font-awesome/css/font-awesome.min.css'; against '/resources/**'
+2019-08-29 21:53:12,433 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/demo/font-awesome/css/font-awesome.min.css'; against '/webjars/**'
+2019-08-29 21:53:12,433 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/noty/3.1.4/demo/font-awesome/css/font-awesome.min.css has an empty filter list
+2019-08-29 21:53:12,445 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/css/dataTables.bootstrap4.min.css'; against '/resources/**'
+2019-08-29 21:53:12,445 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/css/dataTables.bootstrap4.min.css'; against '/webjars/**'
+2019-08-29 21:53:12,445 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/datatables/1.10.19/css/dataTables.bootstrap4.min.css has an empty filter list
+2019-08-29 21:53:12,462 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/images/icon-meal.png'; against '/resources/**'
+2019-08-29 21:53:12,462 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/images/icon-meal.png has an empty filter list
+2019-08-29 21:53:12,471 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/lib/noty.css'; against '/resources/**'
+2019-08-29 21:53:12,472 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/lib/noty.css'; against '/webjars/**'
+2019-08-29 21:53:12,472 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/noty/3.1.4/lib/noty.css has an empty filter list
+2019-08-29 21:53:12,519 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/jquery/3.4.1/jquery.min.js'; against '/resources/**'
+2019-08-29 21:53:12,519 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/jquery/3.4.1/jquery.min.js'; against '/webjars/**'
+2019-08-29 21:53:12,519 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/jquery/3.4.1/jquery.min.js has an empty filter list
+2019-08-29 21:53:12,609 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/bootstrap/4.3.1/js/bootstrap.min.js'; against '/resources/**'
+2019-08-29 21:53:12,609 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/bootstrap/4.3.1/js/bootstrap.min.js'; against '/webjars/**'
+2019-08-29 21:53:12,609 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/bootstrap/4.3.1/js/bootstrap.min.js has an empty filter list
+2019-08-29 21:53:12,618 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/demo/font-awesome/fonts/fontawesome-webfont.woff2'; against '/resources/**'
+2019-08-29 21:53:12,618 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/demo/font-awesome/fonts/fontawesome-webfont.woff2'; against '/webjars/**'
+2019-08-29 21:53:12,619 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/noty/3.1.4/demo/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 has an empty filter list
+2019-08-29 21:53:12,623 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/lib/noty.min.js'; against '/resources/**'
+2019-08-29 21:53:12,623 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/noty/3.1.4/lib/noty.min.js'; against '/webjars/**'
+2019-08-29 21:53:12,623 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/noty/3.1.4/lib/noty.min.js has an empty filter list
+2019-08-29 21:53:12,626 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/js/jquery.dataTables.min.js'; against '/resources/**'
+2019-08-29 21:53:12,626 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/js/jquery.dataTables.min.js'; against '/webjars/**'
+2019-08-29 21:53:12,626 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/datatables/1.10.19/js/jquery.dataTables.min.js has an empty filter list
+2019-08-29 21:53:12,628 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/js/dataTables.bootstrap4.min.js'; against '/resources/**'
+2019-08-29 21:53:12,629 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/webjars/datatables/1.10.19/js/dataTables.bootstrap4.min.js'; against '/webjars/**'
+2019-08-29 21:53:12,629 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /webjars/datatables/1.10.19/js/dataTables.bootstrap4.min.js has an empty filter list
+2019-08-29 21:53:12,781 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/resources/images/icon-meal.png'; against '/resources/**'
+2019-08-29 21:53:12,781 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /resources/images/icon-meal.png has an empty filter list
+2019-08-29 21:53:14,320 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/users'; against '/resources/**'
+2019-08-29 21:53:14,320 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/users'; against '/webjars/**'
+2019-08-29 21:53:14,321 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/users'; against '/rest/**'
+2019-08-29 21:53:14,322 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /users has no matching filters
+2019-08-29 21:53:14,388 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/resources/**'
+2019-08-29 21:53:14,389 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/webjars/**'
+2019-08-29 21:53:14,389 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/rest/**'
+2019-08-29 21:53:14,389 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /meals has no matching filters
+2019-08-29 21:53:17,790 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals/update'; against '/resources/**'
+2019-08-29 21:53:17,790 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals/update'; against '/webjars/**'
+2019-08-29 21:53:17,791 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals/update'; against '/rest/**'
+2019-08-29 21:53:17,791 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /meals/update?id=100007 has no matching filters
+2019-08-29 21:53:17,793 INFO  ru.javawebinar.topjava.web.meal.JspMealController.get:27 - get meal 100007 for user 100000
+2019-08-29 21:53:22,878 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/resources/**'
+2019-08-29 21:53:22,879 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/webjars/**'
+2019-08-29 21:53:22,879 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/rest/**'
+2019-08-29 21:53:22,879 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /meals has no matching filters
+2019-08-29 21:53:22,882 INFO  ru.javawebinar.topjava.web.meal.JspMealController.update:53 - update Meal{id=100007, dateTime=2015-05-31T20:00, description='Ужин', calories=518} for user 100000
+2019-08-29 21:53:23,024 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/resources/**'
+2019-08-29 21:53:23,024 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/webjars/**'
+2019-08-29 21:53:23,024 DEBUG o.s.s.web.util.matcher.AntPathRequestMatcher.matches:176 - Checking match of request : '/meals'; against '/rest/**'
+2019-08-29 21:53:23,025 DEBUG org.springframework.security.web.FilterChainProxy.doFilterInternal:202 - /meals has no matching filters
